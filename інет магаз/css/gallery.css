@@ -1,0 +1,100 @@
+.gallery {
+    height: 100px;
+    color: #fff;
+}
+
+.gallery__wrapper {
+    background-color: #00cba9;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.gallery__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery__title {
+padding: 60px 15px 30px 15px;
+text-align: center;
+font-size: 34px;
+}
+
+.gallery__desc {
+    width: 90%;
+    text-align: center;
+    font-size: 22px;
+}
+/* 
+.gallery__rect {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+width: 80%;
+    padding: 40px 0px 50px 15px;
+
+}
+
+.rect__img1 {
+    width: 129px;
+    height: 138px;
+    object-fit: cover;
+    padding-right: 0px;
+}
+
+.rect__img2 {
+    object-fit: cover;
+    width: 129px;
+    height: 98px;
+}
+
+.rect__img3 {
+    object-fit: cover;
+    width: 129px;
+height: 88px;
+margin-top: 10px;
+}
+
+.rect__img4 {
+    margin-top: -30px;
+    object-fit: cover;
+    width: 129px;
+height: 128px;
+}
+
+.gallery__big {
+
+    object-fit: cover;
+    width: 129px;
+height: 128px;
+grid-column: 1 / span 2;
+} */
+
+.gallery__rect {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 40px 15px 50px 15px;
+  }
+  
+  .rect__img-wrapper {
+    overflow: hidden; /* Забезпечує обрізку картинок, якщо вони перевищують розмір контейнера */
+  }
+  
+  .rect__img-wrapper img {
+    width: 100%; 
+    height: auto;
+  }
+
+  .rect__img 
+  
+  .gallery__big-wrapper {
+    grid-column: 1 / span 2; /* Розтягуємо на два стовпці */
+  }
+  
+  .gallery__big {
+    width: 100%; /* Заповнює ширину батьківського контейнера */
+    height: auto; /* Автоматична висота, щоб зберегти пропорції */
+  }
